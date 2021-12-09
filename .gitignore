@@ -1,0 +1,13 @@
+#no subir el archivo
+prueba.txt
+ rutas de archivos en carpetas son archovos sin usar en el proyecto
+
+
+pruebas.html
+
+# no subir directorio
+
+aca es para anotar cosas pero no se veran
+#archivos con extension.txt
+*.txt
+

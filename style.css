@@ -1,19 +1,20 @@
 body {
-  background-color:olive;
+  background-color:#fbcb7b;
+      
 }
 h1 {
-  color:peru;
+  color:tomato;
   font-size: 50px;
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   
 }
 h2 {
-  color:black;
+  color:#752a07;
   font-size: 40px;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 h3 {
-  color:black;
+  color:#b9d9c3;
   font-size: 25px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
