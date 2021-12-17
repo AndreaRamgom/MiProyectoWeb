@@ -11,3 +11,207 @@ aca es para anotar cosas pero no se veran
 #archivos con extension.txt
 *.txt
 
+# copie codigo html anterior de respaldo
+
+ <div class="container">
+    <header>
+      <div class="logo">
+        <h1>DESAYUNOS ONLINE</h1>
+        <p> Somos una empresa que llevamos desayunos donde nos necesites.</p>
+      </div>
+      <form action="">
+        <input type="text"class ="barra-busqueda" id=" barra-busqueda" placeholder="Buscar" text-aline="center">
+      </form>
+      <br>
+      <div class="categorias" id="categorias">
+        <a href="#parrafo-1" class="activo">SANDWICH</a><p>
+        <a href="#parrafo-2" class="activo">GALLETAS</a>
+        <a href="#parrafo-3" class="activo">OPCION VEGANA</a>
+        <a href="#parrafo-4" class="activo">PARA BEBER</a>
+
+        <div id="demo" class="carousel slide" data-ride="carousel">
+
+          <!-- Indicators -->
+          <ul class="carousel-indicators">
+            <li data-target="#demo" data-slide-to="0" class="active"></li>
+            <li data-target="#demo" data-slide-to="1"></li>
+            <li data-target="#demo" data-slide-to="2"></li>
+          </ul>
+        
+          <!-- The slideshow -->
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="imagenes/pexels-photo-6169449" alt="Sandwich">
+            </div>
+            <div class="carousel-item">
+              <img src="imagenes/pexels-photo-5258403" alt="galletas chispas chocolate">
+            </div>
+            <div class="carousel-item">
+              <img src="imagenes/pexels-photo-1387070" alt="Pan recien salido del horno">
+            </div>
+          </div>
+        
+          <!-- Left and right controls -->
+          <a class="carousel-control-prev" href="#demo" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+          </a>
+          <a class="carousel-control-next" href="#demo" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+          </a>
+        
+        </div> 
+        
+        
+
+
+      
+        <!--<section class="grid">
+          <div class="item">
+            <div class="item-comtenido"> 
+              <img src="imagenes/pexels-photo-6169449.jpg"  alt="Sandwich vegetariano"></a> 
+            </div>
+          </div>
+        
+          <div class="item">
+            <div class="item-comtenido">
+              <img src="imagenes/pexels-photo-5258403.jpeg" class="productos" alt="galletas con chispas de chocolate"></a>
+              
+            </div>
+          </div>
+         
+          <div class="item">
+            <div class="item-comtenido"> 
+              <img src="imagenes/pexels-photo-1387070.jpeg" class="productos" alt="pan recien salido del horno"></a>   
+            </div>
+          </div>
+          <div class="item">
+            <div class="item-comtenido"> 
+              <img src="imagenes/pexels-photo-3646111.jpeg" class="productos" alt="cafe de grano"></a> 
+            </div>
+          </div> 
+          <div class="item">
+            <div class="item-comtenido"> 
+               <img src="imagenes/pexels-photo-6660187.jpg" class="productos" alt="pan recien horneado"></a>
+            </div>
+          </div>
+          <div class="item">
+            <div class="item-comtenido"> 
+              <img src="imagenes/pexels-photo-6169449.jpg" class="productos" alt="Sandwich vegetariano"></a>  
+            </div>
+          </div>
+          </section>-->
+
+      
+      
+      </div>
+
+    </header>
+
+
+
+
+  </div>
+
+  
+
+
+
+
+
+
+
+
+  
+ <main>
+    <h2>Nuestros Productos :</h2>
+    
+    
+    
+      <div class="lista-de-productos1">
+        
+      
+    </div>
+    
+    <br>
+    <ul class="enlace-pedido">
+      <!--enlace que lleva hacer pedido por el cliente-->
+
+      <p>Haz clic <a href="#aqui"><strong>aqui</strong> </a> para hacer tu pedido</p><br>
+    
+
+     
+      
+
+    <!--enlaces de las fotos-->
+    <div>
+    
+      <!--<a href="#" target="_blank" rel="noopener noreferrer"><img src="imagenes/pexels-photo-6169449.jpg" class="productos" alt="Sandwich vegetariano"></a>-->
+
+     
+        
+      <!--<a href="#" target="_blank" rel="noopener noreferrer"><img src="imagenes/pexels-photo-5258403.jpeg" class="productos" alt="galletas con chispas de chocolate"></a>-->
+
+
+      <!--<a href="#" target="_blank" rel="noopener noreferrer"><img src="imagenes/pexels-photo-1387070.jpeg" class="productos" alt="pan recien salido del horno"></a>-->
+
+      
+      <!--<a href="#" target="_blank" rel="noopener noreferrer"><img src="imagenes/pexels-photo-3646111.jpeg" class="productos" alt="cafe de grano"></a>-->
+
+      <!--<a href="#" target="_blank" rel="noopener noreferrer"> <img src="imagenes/pexels-photo-6660187.jpg" class="productos" alt="pan recien horneado"></a>-->
+
+  </div>
+
+
+  
+    <h3 id="parrafo-1">SANDWICH</h3>
+
+    <p>Exquisito Sandwich hecho de pan masa madre relleno a tu elección</p>
+
+    <h3 id="parrafo-2">GALLETAS</h3>
+
+    <p> Galletas con chispas de chocolate en una presentacion para compartir. </p>
+
+    <h3 id="parrafo-3">OPCION VEGANA</h3>
+
+    <p> Sandwich Vegano/Vegetariano tu eleges la opcion que mas te guste. </p>
+
+    <h3 id="parrafo-4">PARA BEBER</h3>
+
+    <p>Cafe de grano, puedes probar nuestros distintas variedades</p>
+  
+      <h3 id="aqui" >HAZ TU PEDIDO AQUI</h3>
+
+      <ul class="lista-de-productos">
+
+        <!--casilla verificacion-->
+
+        <label for="sandwich"><input id="sandwich"type="checkbox" name="producto">SANDWICH</label> <br>
+
+        <label for="galletas"><input id="galletas"type="checkbox" name="produto">GALLETAS</label><br>
+
+       <label for="vegana" ><input id="vegana" type="checkbox" name="producto">OPCION VEGANA</label>  <br>
+
+       <label for="beber" ><input id="beber"type="checkbox" name="producto">PARA BEBER</label>
+
+      </ul>
+      <h3 >SUBSCRIBETE PARA CONOCER NUESTRAS OFERTAS Y PROMOCIONES</h3>
+
+    <form action="/respuesta">
+      <!--botones de radio-->
+      <input type="text" placeholder="Ingresa tu correo" required
+      <button type="submit">ENVIAR</button>
+
+
+
+
+    </form>
+
+  </main>
+  <footer>
+    <!--<p><small>Sin derechos de autor</small></p>-->
+    <!--<p>Quienes somos</p>-->
+  </footer>  
+    
+</body>
+</html>
+
